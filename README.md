@@ -1,12 +1,8 @@
 # TIMTestMethodology
 My methodology for TIMs on my laptop
-
-___
 ___
 
 ## Hardware
-___
-
 #### Lenovo Legion 5
 - AMD Ryzen 7 5800H (95W Max)
 - Nvidia RTX 3060 (115W + 15W Dynamic Boost)
@@ -14,11 +10,7 @@ ___
 - 2 x 1TB PCIE 3.0 NVME SSD
 - Windows 11 Version 22H2 (0S Build 22621.1778)
 
-___
-___
-
 ## Software
-____
 
 ### Testing
 - Cinebench R23.200 for CPU load application
@@ -27,11 +19,7 @@ ____
 ### Measuring
 - HWiNFO 64 7.30-4870 for live logging 
 
-___
-___
-
 ##### Recorded Parameters
-___
 
 ###### CPU Core temperatures
 - CPU (Tct1/Tdie)
@@ -99,4 +87,21 @@ ___
 - GPU Video Clock
 - GPU Effective Clock
 
+## Testing Process
+- Old TIM is removed using 99% ethanol and lint free wipes
+- New TIM is applied using a spatula
+- Heatsinks are cleaned using a soft bristle brush and a camera lens blower
+- Heatsink assembly screws are tightened in a star pattern
+- Laptop is put back together
+- Performance of laptop is set to "Performance" (Highest power and fan speeds)
+- Run all core cinebench r23 load for 1 hour to cure the TIM on CPU
+- Port Royal is run for 1 hour on gpu to cure the TIM on GPU
+- Ambient temp is recorded and logged along with thermal testing
+- CPU and GPU tests are run separately one after the other for 30 minutes each.
+
+- >**NOTE**: The CPU and GPU loads are not applied simultaneously as i am trying to test the performance of the TIM not the cooling efficiency of my laptop.
+
+- After initial testing the laptop is used intensively by me for 1 week with 2 hours of gaming loads per day on average at maximum performance modes
+- Test process above is repeated after the completion of that 1 week to test for blatant pump outs
+- Logged CSV are uploaded to this github repo in the TIM's respective folder
 
