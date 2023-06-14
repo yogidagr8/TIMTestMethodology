@@ -99,7 +99,7 @@ ___
 - Ambient temp is recorded and logged along with thermal testing
 - CPU and GPU tests are run separately one after the other for 30 minutes each.
 
-- >**NOTE**: The CPU and GPU loads are not applied simultaneously as i am trying to test the performance of the TIM not the cooling efficiency of my laptop.
+>**NOTE**: The CPU and GPU loads are not applied simultaneously as i am trying to test the performance of the TIM not the cooling efficiency of my laptop.
 
 - After initial testing the laptop is used intensively by me for 1 week with 2 hours of gaming loads per day on average at maximum performance modes
 - Test process above is repeated after the completion of that 1 week to test for blatant pump outs
