@@ -1,5 +1,5 @@
 # TIMTestMethodology
-My methodology for TIMs on my laptop
+My methodology for testing TIMs on my laptop
 ___
 
 ## Hardware
